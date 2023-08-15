@@ -1,0 +1,72 @@
+header, .container, footer {
+    font-family: sans-serif;
+}
+header {
+    background-color: #1f2937;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: #f9faf8;
+    margin: 0px;
+    position: fixed;
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+.header {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 0px 10%;
+}
+.header .logo {
+    flex: 1;
+    color: #f9faf8;
+    font-weight: 700;
+}
+.header li {
+    color: rgb(196, 196, 196);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    left: 0px;
+    right: 0px;
+}
+.top-box {
+    padding: 60px 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    margin-top: 50px;
+    gap: 10px;
+}
+.top-text-box {
+    color: #f9faf8;
+    flex: 1;
+    align-self: center;
+}
+.main-img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    flex: 1;
+}
+.main-title {
+    margin: 0px;
+    font-size: 48px;
+}
+.subtext {
+    margin-top: 0px;
+    color: rgb(196, 196, 196);
+    font-size: 18px;
+}
+.sign-up1-button {
+    color: white;
+    text-decoration: none;
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 8px;
+}
