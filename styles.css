@@ -69,6 +69,12 @@ body {
     font-size: 18px;
     padding: 10px 40px;
     border-radius: 8px;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+.sign-up1-button:hover {
+    color: #3882f6;
+    background-color: white;
 }
 .middle {
     font-size: 36px;
@@ -90,6 +96,7 @@ body {
 }
 .infobox p {
     margin-top: 10px;
+    font-size: 16px;
 }
 .infobox img {
     height: 150px;
@@ -110,4 +117,49 @@ body {
     font-style: normal;
     font-weight: 600;
     text-align: right;
+}
+.sign-up-window {
+    width: 60%;
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 16px;
+    margin: 100px auto;
+    text-align: left;
+    padding: 50px 10%;
+}
+.sign-up-text h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.sign-up-text p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.sign-up2-button {
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 40px;
+    height: fit-content;
+    text-align: center;
+    align-self: center;
+    white-space: nowrap;
+    transition-duration: 0.3s;
+}
+.sign-up2-button:hover {
+    color: #3882f6;
+    background-color: white;
+}
+footer {
+    background-color: #1f2937;
+    color: rgb(196, 196, 196);
+    padding: 10px 0px;
+    text-align: center;
 }
