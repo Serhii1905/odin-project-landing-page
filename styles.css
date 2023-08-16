@@ -70,3 +70,44 @@ body {
     padding: 10px 40px;
     border-radius: 8px;
 }
+.middle {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-bottom: 100px;
+}
+.infobox {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    width: 160px;
+}
+.infobox p {
+    margin-top: 10px;
+}
+.infobox img {
+    height: 150px;
+    width: 150px;
+    border: #3882f6 solid 5px;
+    border-radius: 16px;
+}
+.quote {
+    background-color: #e5e7eb;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: left;
+    padding: 100px 20%;
+    
+}
+.quote .name {
+    font-style: normal;
+    font-weight: 600;
+    text-align: right;
+}
